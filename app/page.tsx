@@ -47,7 +47,7 @@ export default function Home() {
           </h1>
             <h2 className='text-md md:text-2xl'>Powered by AI x Blockchain</h2>
           </div>
-          <p className='max-w-md text-sm md:text-base text-zinc-500'>The Next Gen Voice AI allows you to train your own AIVR &quot;Artificial Interactive Voice Responsive&quot; Agent with a real time humanized voice to promote your business, project or to handle some customers queries. Pay per minute as you go with $Voice tokens.</p>
+          <p className='max-w-md text-sm md:text-base text-zinc-500'>The Next Gen Voice AI allows you to train your own AIVR &quot;Artificial Interactive Voice Responsive Agent with a real time humanized voice to promote your business, project or to handle some customers queries. Pay per minute as you go with $Voice tokens.</p>
           <div className='w-full flex items-center justify-center md:justify-start gap-1'>
           </div>
           <p className='max-w-md text-sm md:text-base text-white font-bold'>No contract, Subscription or Membership</p>
@@ -61,7 +61,7 @@ export default function Home() {
         <div className="video-wrapper" style={{ width: '50%', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
     <video 
       className="responsive-video"
-      src="/videos/call.mp4"
+      src="/call.mp4"
       autoPlay
       loop
       muted
@@ -94,7 +94,7 @@ export default function Home() {
       <section 
   id="pricing" 
   className="h-fit min-h-screen w-full flex flex-col items-center justify-center gap-8 p-8"
-  style={{ background: 'url(/images/roadbg.svg)', backgroundSize: 'cover' }}
+  style={{ background: 'url(/roadbg.svg)', backgroundSize: 'cover' }}
 >
   <div style={{ marginBottom: '25px' }}> {/* Adjust the margin as needed */}
     <TypingEffect />
@@ -118,7 +118,6 @@ export default function Home() {
         id="pie-chart" 
         className="w-full flex flex-col items-center justify-center p-10"
         style={{
-          backgroundImage: 'url("/images/pieg.svg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -147,7 +146,7 @@ export default function Home() {
         <div className="p-4 md:py-8 w-full">
           <div className="flex flex-wrap justify-between items-center w-full">
             <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-              <Image src="/images/logo.svg" className="h-12" alt="Flowbite Logo" />
+              <img src="/logo.svg" className="h-12" alt="Flowbite Logo" />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">NextGen Voice AI</span>
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
@@ -241,7 +240,7 @@ function Navbar() {
         {/* Logo and title section */}
         <div className='flex items-center gap-4'>
           <Image
-            src="/images/logo.svg" // Adjust the path as needed
+            src="/logo.svg" // Adjust the path as needed
             alt="Logo"
             width={60}
             height={60}
