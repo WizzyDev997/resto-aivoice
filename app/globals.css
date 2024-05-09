@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+#roadmap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0; /* Ajustez le padding selon vos besoins */
+}
+
+#roadmap h3 {
+  text-align: center;
+  margin-bottom: 100px; /* Espacement entre le titre et la timeline */
+}
+
+.join-text {
+  background: linear-gradient(90deg, #a21caf 0%, #1e62d0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.Nextgen {
+  background: linear-gradient(30deg, #a21caf 0%, #1e62d0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.logo {
+  background: linear-gradient(30deg, #a21caf 0%, #1e62d0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Tokenomics {
+  background: linear-gradient(30deg, #a21caf 0%, #1e62d0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;  /* Adjust the size as needed */
+  font-weight: bold;
+}
+/* Adjust according to actual class or element discovered in the DOM inspection */
+.PieChart .chart-label {
+  fill: white;  /* Use 'fill' for SVG text elements, 'color' for HTML elements */
+}
+
+svg text {
+  fill: white !important; /* This assumes the text elements are not more specifically targeted somewhere else */
+}
+
+/* Assuming you use global CSS, add this in your styles.css or equivalent */
+.bullet {
+  width: 8px; /* Size of the bullet */
+  height: 8px; /* Size of the bullet */
+  background-color: white; /* Color of the bullet */
+  border: 2px solid #ccc; /* Border color and size */
+  border-radius: 50%; /* Make it round */
+  display: inline-block; /* Needed to align with text */
+  margin-right: 8px; /* Space between bullet and text */
+}
+
+.benefit-title {
+  font-weight: bold;
+  font-size: 18px; /* Taille du titre */
+  margin-bottom: 8px; /* Espacement entre le titre et la description */
+}
+
+.benefit-description {
+  font-size: 16px; /* Taille de la description */
+}
+
+/* Commandes pour ajuster le style */
+:root {
+  --title-size: 18px; /* Contrôle la taille du texte du titre */
+  --title-margin: 8px; /* Contrôle l'espacement sous le titre */
+  --description-size: 16px; /* Contrôle la taille du texte de la description */
+}
+
+.price-title {
+  font-size: 3rem; /* 24px, adjust as needed */
+  font-weight: bold;
+  color: #fff; /* Adjust the color as needed */
+  margin-bottom: 8px; /* Spacing below the price title */
+}
+
+.price-title {background: linear-gradient(7deg, #a21caf 0%, #1e62d0 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 70px;  /* Adjust the size as needed */
+font-weight: bold;
+}
+
+#tech-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-image: url('/images/blocks.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+}
+
+#tech-display div {
+  width: 100%;
+  padding: 5px;
+}
+
+@media (min-width: 768px) { /* Adjusts for medium screens and up */
+  #tech-display {
+    flex-direction: row;
+  }
+  #tech-display div {
+    width: 50%;
+  }
+}
+
+.hidden { display: none; }
+#popup { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; }
+.circle { width: 100px; height: 100px; border-radius: 50%; background-color: white; animation: pulse 2s infinite; }
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.autohide-snackbar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
