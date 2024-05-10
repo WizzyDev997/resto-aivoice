@@ -42,15 +42,15 @@ const pricingCards: IPricingCardProps[] = [
         oneliner: "Scaling New Heights",
     },
     {
-        price: "Q5",
-        title: "Explantion",
+        price: "Q1",
+        title: "Global",
         benefits: [
             "Next-Gen AI Features: Unveil new AI functionalities that push the boundaries of voice interaction technologies, including emotional intelligence capabilities and multi-lingual support.",
             "Ecosystem Expansion: Launch additional platforms and services that complement and enhance the core Voice AI offerings, supporting a broader range of applications in different sectors.",
             "Commitment to Sustainability: Initiate programs aimed at reducing the environmental impact of our technologies and operations, reinforcing our commitment to sustainable business practices."
         ],
         id: 4,
-        oneliner: "Poussée vers l'innovation et la durabilité",
+        oneliner: "Worldwide Provider",
     }
 ];
 export default pricingCards;

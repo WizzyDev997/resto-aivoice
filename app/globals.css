@@ -166,3 +166,8 @@ font-weight: bold;
   margin-bottom: 20px;
   width: 100%;
 }
+
+video {
+  overflow: clip;  
+  object-fit: cover; 
+}

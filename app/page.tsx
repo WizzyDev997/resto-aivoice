@@ -59,18 +59,20 @@ export default function Home() {
 
         <div className='w-full h-2/4 md:h-full md:w-3/5 flex items-center justify-center relative -z-10'>
         <div className="video-wrapper" style={{ width: '50%', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-    <video 
-      className="responsive-video"
-      src="/call.mp4"
-      autoPlay
-      loop
-      muted
-      playsInline
-    >
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</div>
+        <video 
+        className="responsive-video"
+        src="/call.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        style={{ overflow: "clip", objectFit: "cover" }} // Ajouter 'objectFit' si nécessaire
+      >
+        Your browser does not support the video tag.
+      </video>
+
+        </div>
+      </div>
       </header>
 
       <section id="about" className="h-fit min-h-screen w-full flex relative items-center justify-center p-8">
