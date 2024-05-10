@@ -61,12 +61,12 @@ export default function Home() {
         <div className="video-wrapper" style={{ width: '50%', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <video 
         className="responsive-video"
-        src="/call.mp4"
+        src="/Call.mp4"
         autoPlay
         loop
         muted
         playsInline
-        style={{ overflow: "clip", objectFit: "cover" }} // Ajouter 'objectFit' si nécessaire
+        style={{ overflow: "clip", objectFit: "cover" }} 
       >
         Your browser does not support the video tag.
       </video>

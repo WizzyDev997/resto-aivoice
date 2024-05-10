@@ -168,6 +168,6 @@ font-weight: bold;
 }
 
 video {
-  overflow: clip;  
+  overflow: hidden;  
   object-fit: cover; 
 }
