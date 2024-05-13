@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".", // This should be the base directory of your project
+      "paths": {
+        "@/*": ["./app/*"] // Adjust this path so that it points to where your components folder and other resources are located
+      }
+    }
+  }
+  

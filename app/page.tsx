@@ -7,7 +7,6 @@ import { LucideIcon } from 'lucide-react'
 import React, { useState } from "react";
 import { ReactElement } from 'react'
 import TypingEffect from './components/typing';
-
 import PieActiveArc from './components/pie'; 
 import pricingCards from './libs/PricingCards'
 import AutohideSnackbar from './components/AutohideSnackbar'; // Import your Snackbar component
@@ -125,7 +124,7 @@ export default function Home() {
           backgroundRepeat: 'no-repeat'
         }}
       >
-        <h4 className="Tokenomics mb-15">Distribution & Tokenomics</h4>
+        <h4 className="Tokenomics mb-15">Tokenomics</h4>
         <p className="text-white-500 text-base mb-11">Total Supply : 300 millions Token</p>
         <div className="w-full flex justify-center">
           <PieActiveArc />
@@ -244,8 +243,8 @@ function Navbar() {
           <Image
             src="/logo.svg" // Adjust the path as needed
             alt="Logo"
-            width={60}
-            height={60}
+            width={50}
+            height={50}
             priority
           />
           <h6 className="logo">NextGen Voice AI</h6>       
