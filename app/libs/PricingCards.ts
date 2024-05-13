@@ -12,7 +12,7 @@ const pricingCards: IPricingCardProps[] = [
         price: "Q2",
         title: "Voice AI Development",
         benefits: [
-            "Live demo hotline calls: Experience our Live Demo Hotline Calls to see our Voice AI technology facilitate real-time customer service interactions. Discover the efficiency and clarity it brings to communication.",
+            "Live AIVR hotline calls: Experience our Live AIVR Demo Hotline Calls to see our AI technology facilitate real-time customer service interactions. Discover the efficiency and clarity it brings to communication.",
             "Participate in the public launch of the $voice Token, a strategic step towards enhancing our platform’s capabilities. Secure early access to tokens and benefit from enhanced platform functionalities and exclusive features.",
             "Join our inaugural strategic partnerships to integrate advanced communication solutions into your operations. Position your company at the forefront of technological innovation by joining our waitlist for early access and collaboration opportunities.",
         ],
