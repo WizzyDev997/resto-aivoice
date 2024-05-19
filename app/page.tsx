@@ -1,5 +1,6 @@
 "use client"
 
+import { FaTwitter, FaTelegramPlane } from 'react-icons/fa'; // Importer les icônes
 import Image from 'next/image'
 import Link from 'next/link'
 import infoCards from './libs/InfoCards'
@@ -46,7 +47,7 @@ export default function Home() {
           </h1>
             <h2 className='text-md md:text-2xl'>Powered by AI x Blockchain</h2>
           </div>
-          <p className='max-w-md text-sm md:text-base text-zinc-500'>The Next Gen Voice AI allows you to train your own AIVR &quot;Artificial Interactive Voice Responsive&quot; Agent with a real time humanized voice to promote your business, project or to handle some customers queries. Pay per minute as you go with $Voice tokens.</p>
+          <p className='max-w-md text-sm md:text-base text-zinc-500'>The NextGen Voice AI allows you to train your own AIVR &quot;Artificial Interactive Voice Responsive&quot; Agent with a real time humanized voice to promote your business, project or to handle customers queries. Pay per minute as you go with $Voice tokens.</p>
           <div className='w-full flex items-center justify-center md:justify-start gap-1'>
           </div>
           <p className='max-w-md text-sm md:text-base text-white font-bold'>No contract, Subscription or Membership</p>
@@ -84,7 +85,7 @@ export default function Home() {
             {infoCards.map((infoCard) => {
               return (
                 <InfoCard key={infoCard.id} Icon={infoCard.icon} title={infoCard.title}>
-                  <p className="text-sm sm:text-base text-center md:text-left">{infoCard.bodyText}</p>
+                  <p className="text-sm sm:text-base text-center md:text-left" style={{ textAlign: 'center' }}>{infoCard.bodyText}</p>
                 </InfoCard>
               )
             })}
@@ -125,7 +126,7 @@ export default function Home() {
         }}
       >
         <h4 className="Tokenomics mb-15">Tokenomics</h4>
-        <p className="text-white-500 text-base mb-11">Total Supply : 300 millions Token</p>
+        <p className="text-white-500 text-base mb-11">Total Supply : 400 millions Token</p>
         <div className="w-full flex justify-center">
           <PieActiveArc />
         </div>
@@ -141,6 +142,21 @@ export default function Home() {
 }}>
   <AutohideSnackbar />
 </div>
+<div className="social-icons" style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: '20px',
+        marginBottom: '20px' // Espace en dessous des icônes
+      }}>
+        <a href="https://x.com/NextGen_VoiceAi" target="_blank" rel="noopener noreferrer">
+          <FaTwitter size={45} color="#1DA1F2" />
+        </a>
+        <a href="https://t.me/+ozXnvBTR0phiZjlk" target="_blank" rel="noopener noreferrer">
+          <FaTelegramPlane size={45} color="#0088cc" />
+        </a>
+
+      </div>
 
 
       <footer className="bg-white rounded-lg shadow dark:bg-gray-900 m-0 w-full">
@@ -192,13 +208,6 @@ function InfoCard({title,Icon,children}:IInfoCardProps) {
       <PieActiveArc />
     </div>
   </section>
-  
-  <section id="waitlist" className="w-full flex flex-col items-center justify-center p-10">
-  <h4 className="text-4xl md:text-5xl font-bold text-white">Join Our Waitlist!</h4>
-  <p className="text-white text-base mb-4">Be the first to know when we launch!</p>
-  <button className="bg-black text-white px-8 py-3 rounded-md text-lg hover:bg-fuchsia-700 transition-colors">Join Waitlist</button>
-</section>
-
 </>
 
 

@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import '/app/globals.css'; // Make sure to import the CSS file
 
-const texts = ["The Roadmap", 'The Vision', 'The Future', 'The Revolution', 'The Telegram',"New Solutions", "The Waitlist", "The Community", "Now"];
+const texts = ["The Roadmap", 'The Future', 'The Revolution', 'The Telegram', "The Waitlist", "The Community"];
 const typingSpeed = 40; // Speed of typing each character
 const deletingSpeed = 100; // Speed of deleting each character
 const displayTime = 1000; // Time to display the complete text before starting to delete, in milliseconds
