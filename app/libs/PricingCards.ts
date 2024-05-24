@@ -9,7 +9,7 @@ interface IPricingCardProps {
 
 const pricingCards: IPricingCardProps[] = [
     {
-        price: "Q2",
+        price: "Q3",
         title: "AIVR Agents Development",
         benefits: [
             "Live AIVR hotline calls: Experience our Demo Hotline Calls to see our AI technology facilitate real-time customer service interactions. Discover the efficiency and clarity it brings to communication.",
@@ -20,7 +20,7 @@ const pricingCards: IPricingCardProps[] = [
         oneliner: "Kick-off ",
     },
     {
-        price: "Q3",
+        price: "Q4",
         title: "AIVR Agents Deployment",
         benefits: [
             "Your Own AI Hotline Agent: Train and deploy your own AI Hotline Agent, tailored to integrate seamlessly with your website and company data. Enhance your customer service with an agent capable of understanding and responding to client needs efficiently.",
@@ -31,7 +31,7 @@ const pricingCards: IPricingCardProps[] = [
         oneliner: "The Rise",
     },
     {
-        price: "Q4",
+        price: "Q1",
         title: "Global Expansion",
         benefits: [
             "Playground Launch: Official release of our Agent Creation Playground, providing comprehensive tools and resources for building and deploying Voice AI agents across various industries.",
@@ -42,7 +42,7 @@ const pricingCards: IPricingCardProps[] = [
         oneliner: "Scaling New Heights",
     },
     {
-        price: "Q1",
+        price: "Q2",
         title: "Global",
         benefits: [
             "Next-Gen AI Features: Unveil new AI functionalities that push the boundaries of voice interaction technologies, including emotional intelligence capabilities and multi-lingual support.",
