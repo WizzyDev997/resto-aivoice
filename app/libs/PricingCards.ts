@@ -32,7 +32,7 @@ const pricingCards: IPricingCardProps[] = [
     },
     {
         price: "Q1",
-        title: "Global Expansion",
+        title: "Expansion",
         benefits: [
             "Playground Launch: Official release of our Agent Creation Playground, providing comprehensive tools and resources for building and deploying Voice AI agents across various industries.",
             "Global Partnership Initiatives: Expand your reach with our strategic partnerships globally, enhancing business capabilities and opening new markets.",
