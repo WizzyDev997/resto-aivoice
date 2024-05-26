@@ -10,7 +10,7 @@ interface IInfoCard {
 const infoCards: IInfoCard[] = [
     {
         title: "Increase your presence",
-        bodyText: "You future AIVR Agent will be available 24/7, reply instintly with a human-like voice, show your customers that you care about them at anytime in the day.",
+        bodyText: "You future AIVR Agent will be available 24/7, reply instantly with a human-like voice, show your customers that you care about them at anytime in the day.",
         icon: ArrowUpNarrowWide,
         id: 1
     },

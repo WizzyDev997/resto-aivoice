@@ -259,12 +259,13 @@ function Navbar() {
           <h6 className="logo">NextGen Voice AI</h6>       
            </div>
           
-        <ul className='flex gap-8'>
-          <li><Link href="#home" className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base'>Home</Link></li>
-          <li><Link href="#about" className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base'>About</Link></li>
-          <li><Link href="#pricing" className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base'>Roadmap</Link></li>
-          <li><Link href="#pie-chart" className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base'>Tokenomics</Link></li>
-        </ul>
+           <ul className='flex gap-8'>
+  <li><Link href="#home" className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base'>Home</Link></li>
+  <li><a href="https://nextgen-voice-ai.gitbook.io/nextgen-voice-ai/roadmap" target="_blank" rel="noopener noreferrer" className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base'>Docs</a></li>
+  <li><Link href="#pricing" className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base'>Roadmap</Link></li>
+  <li><Link href="#pie-chart" className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base'>Tokenomics</Link></li>
+</ul>
+
       </div>
     </div>
   )
