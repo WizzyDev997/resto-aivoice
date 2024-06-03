@@ -11,6 +11,7 @@ const AutohideSnackbar: React.FC<AutohideSnackbarProps> = (props) => {
 
   const handleClick = () => {
     setOpen(true);
+    window.location.href = "https://forms.gle/A2BTXjdgRVUSH67S8";
   };
 
   const handleClose = (event: React.SyntheticEvent | Event, reason?: string) => {

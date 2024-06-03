@@ -167,11 +167,11 @@ export default function Home() {
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">NextGen Voice AI</span>
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-              <li><a href="#" className="hover:underline mr-4 md:mr-6">Home</a></li>
-              <li><a href="#" className="hover:underline mr-4 md:mr-6">About</a></li>
-              <li><a href="#" className="hover:underline mr-4 md:mr-6">Roadmap</a></li>
-              <li><a href="#" className="hover:underline">Tokenomics</a></li>
-            </ul>
+            <li><a href="#" className="hover:underline mr-4 md:mr-6">Home</a></li>
+            <li><a href="https://nextgen-voice-ai.gitbook.io/nextgen-voice-ai/" target="_blank" rel="noopener noreferrer" className="hover:underline mr-4 md:mr-6">Docs</a></li>
+            <li><a href="#" className="hover:underline mr-4 md:mr-6">Roadmap</a></li>
+            <li><a href="#" className="hover:underline">Tokenomics</a></li>
+          </ul>
           </div>
           <hr className="my-6 border-gray-200 dark:border-gray-700 lg:my-8" />
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 NextGen Voice AI™. All Rights Reserved.</span>
@@ -261,7 +261,7 @@ function Navbar() {
           
            <ul className='flex gap-8'>
   <li><Link href="#home" className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base'>Home</Link></li>
-  <li><a href="https://nextgen-voice-ai.gitbook.io/nextgen-voice-ai/roadmap" target="_blank" rel="noopener noreferrer" className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base'>Docs</a></li>
+  <li><a href="https://nextgen-voice-ai.gitbook.io/nextgen-voice-ai/" target="_blank" rel="noopener noreferrer" className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base'>Docs</a></li>
   <li><Link href="#pricing" className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base'>Roadmap</Link></li>
   <li><Link href="#pie-chart" className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base'>Tokenomics</Link></li>
 </ul>
