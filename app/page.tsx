@@ -53,7 +53,7 @@ export default function Home() {
           <p className='max-w-md text-sm md:text-base text-white font-bold'>No contract, Subscription or Membership</p>
           <div className='w-full flex items-center justify-center md:justify-start gap-4'>
             <button className='w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-700 hover:text-white transition-colors'>Get $Voice</button>
-            <button className='w-48 h-12 text-sm sm:text-base rounded bg-black text-white hover:bg-fuchsia-700 hover:text-white transition-colors'>Call Demo</button>
+            <a href="tel:+12562977667" className='w-48 h-12 text-sm sm:text-base rounded bg-black text-white hover:bg-fuchsia-700 hover:text-white transition-colors'>Call Demo<br/>+1 (256) 297-7667</a>
           </div>
         </div>
 
@@ -160,23 +160,31 @@ export default function Home() {
 
 
       <footer className="bg-white rounded-lg shadow dark:bg-gray-900 m-0 w-full">
-        <div className="p-4 md:py-8 w-full">
-          <div className="flex flex-wrap justify-between items-center w-full">
-            <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-              <img src="/logo.svg" className="h-12" alt="Flowbite Logo" />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">NextGen Voice AI</span>
-            </a>
-            <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-            <li><a href="#" className="hover:underline mr-4 md:mr-6">Home</a></li>
-            <li><a href="https://nextgen-voice-ai.gitbook.io/nextgen-voice-ai/" target="_blank" rel="noopener noreferrer" className="hover:underline mr-4 md:mr-6">Docs</a></li>
-            <li><a href="#" className="hover:underline mr-4 md:mr-6">Roadmap</a></li>
-            <li><a href="#" className="hover:underline">Tokenomics</a></li>
-          </ul>
-          </div>
-          <hr className="my-6 border-gray-200 dark:border-gray-700 lg:my-8" />
-          <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 NextGen Voice AI™. All Rights Reserved.</span>
-        </div>
-      </footer>
+  <div className="p-4 md:py-8 w-full">
+    <div className="flex flex-wrap justify-between items-center w-full">
+      <div className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="/logo.svg" className="h-12" alt="Flowbite Logo" />
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">NextGen Voice AI</span>
+        </a>
+      </div>
+      {/* Nouvel élément div pour le texte "Call demo +1 (256) 297-6776" */}
+      <div className="flex-grow text-center">
+        <span className="text-sm font-medium text-gray-500 dark:text-gray-400"><strong>Call demo +1 (256) 297-7667</strong></span>
+      </div>
+      <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+        <li><a href="#" className="hover:underline mr-4 md:mr-6">Home</a></li>
+        <li><a href="https://nextgen-voice-ai.gitbook.io/nextgen-voice-ai/" target="_blank" rel="noopener noreferrer" className="hover:underline mr-4 md:mr-6">Docs</a></li>
+        <li><a href="#" className="hover:underline mr-4 md:mr-6">Roadmap</a></li>
+        <li><a href="#" className="hover:underline">Tokenomics</a></li>
+      </ul>
+    </div>
+    <hr className="my-6 border-gray-200 dark:border-gray-700 lg:my-8" />
+    <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 NextGen Voice AI™. All Rights Reserved.</span>
+  </div>
+</footer>
+
+
     </main>
   );
 }
