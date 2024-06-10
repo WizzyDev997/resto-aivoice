@@ -54,8 +54,8 @@ export default function Home() {
           <p className='max-w-md text-sm md:text-base text-white font-bold'>No contract, Subscription or Membership</p>
           <div className='w-full flex items-center justify-center md:justify-start gap-4'>
             <button className='w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-700 hover:text-white transition-colors'>Get $Voice</button>
-            <a href="tel:+12562977667" className='w-48 h-12 text-sm sm:text-base rounded bg-black text-white hover:bg-fuchsia-700 hover:text-white transition-colors'>Call Demo<br/>+1 (256) 297-7667</a>
-          </div>
+            <a href="tel:+12562977667" className='w-48 h-12 text-sm sm:text-base rounded bg-black text-white hover:bg-fuchsia-700 hover:text-white transition-colors flex items-center justify-center text-center'>Call Demo<br/>+1 (256) 297-7667</a>         
+         </div>
         </div>
 
         <div className='w-full h-2/4 md:h-full md:w-3/5 flex items-center justify-center relative -z-10'>
