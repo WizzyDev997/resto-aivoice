@@ -16,8 +16,6 @@
   
 }
 
-
-
 /* Styles globaux pour le corps du document */
 body {
   color: rgb(var(--foreground-rgb));
@@ -118,7 +116,7 @@ body {
   }
 }
 
-.hidden { display: none; }
+
 
 @keyframes pulse {
   0%, 100% { transform: scale(1); }
