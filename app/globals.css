@@ -13,52 +13,16 @@
     --foreground-rgb: 255, 255, 255;
     --background-rgb: 0, 0, 0;
   }
+  
 }
 
 /* Styles globaux pour le corps du document */
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: rgb(var(--background-rgb));
+  background-color: rgb(var(--background-start-rgb));
   background-color: rgb(0, 0, 0); /* Force le fond noir */
-  margin: 0; /* Supprime les marges par défaut */
-  padding: 0; /* Supprime les paddings par défaut */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
 }
 
-/* Assurer que les éléments HTML ont une couleur de texte blanche */
-html {
-  color: white;
-}
-
-/* Media query pour les appareils mobiles */
-@media (max-width: 767px) {
-  .flex-col {
-    flex-direction: column !important;
-  }
-  
-  .items-center {
-    align-items: center !important;
-  }
-  
-  .justify-center {
-    justify-content: center !important;
-  }
-
-  .text-center {
-    text-align: center !important;
-  }
-
-  .button {
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-  }
-}
 
 /* Styles spécifiques pour les composants de la page */
 #roadmap {
@@ -144,12 +108,15 @@ html {
 @media (min-width: 768px) {
   #tech-display {
     flex-direction: row;
+    
   }
 
   #tech-display div {
     width: 50%;
   }
 }
+
+
 
 @keyframes pulse {
   0%, 100% { transform: scale(1); }
