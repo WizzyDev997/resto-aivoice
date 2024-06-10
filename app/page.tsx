@@ -67,9 +67,9 @@ export default function Home() {
         loop
         muted
         playsInline
+        controls
         style={{ overflow: "clip", objectFit: "cover" }} 
-      >
-      </video>
+      ></video>
 
         </div>
       </div>
