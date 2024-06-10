@@ -35,7 +35,7 @@ export default function Home() {
   
 
   return (
-    <main className='flex min-h-screen h-fit flex-col items-center justify-center relative'>
+<main className='flex min-h-screen h-fit flex-col items-center justify-center relative text-white'>
       <Navbar />
 
       <header id="home" className="flex flex-col-reverse md:flex-row w-full h-screen max-w-7xl items-center justify-center p-8 relative overflow-x-hidden">
