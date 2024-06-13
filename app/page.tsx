@@ -197,7 +197,7 @@ interface IInfoCardProps {
 
 function InfoCard({title,Icon,children}:IInfoCardProps) {
   return (
-    <div className='w-full h-80 rounded flex flex-col justify-around items-center p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20'>
+    <div className='w-full h-80  flex flex-col justify-around items-center p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20'>
       <div className="p-4 bg-fuchsia-700 rounded-full">
         <Icon />
       </div>
@@ -230,7 +230,7 @@ interface IPricingCardProps {
 
 function PricingCard({title, price, benefits, oneliner, id}: IPricingCardProps) {
   return (
-    <div className='h-fit w-full rounded flex flex-col p-8 gap-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20'>
+    <div className='h-fit w-full  flex flex-col p-8 gap-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20'>
       <div className='flex flex-col gap-2'>
         <h4 className='price-title'>{price}</h4>
         <div>
