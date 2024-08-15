@@ -37,7 +37,6 @@ export default function Home() {
   return (
 <main className='flex min-h-screen h-fit flex-col items-center justify-center relative text-white'>
       <Navbar />
-
       <header id="home" className="flex flex-col-reverse md:flex-row w-full h-screen max-w-7xl items-center justify-center p-8 relative overflow-x-hidden">
         <div className='w-full h-2/4 md:h-full md:w-2/5 flex flex-col justify-center items-center md:items-start gap-8'>
           <div className='flex flex-col gap-2'>
@@ -81,11 +80,11 @@ export default function Home() {
             </li>
           </ul>
           <p className='max-w-md text-sm md:text-base text-white font-bold text-center'>
-            Replaces Salesforce, chatbots, and call agents.
+            In average 2 to 3 hours are spent daily per restaurant.
           </p>
           <div className='w-full flex items-center justify-center md:justify-start gap-4'>
             <button className='w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-700 hover:text-white transition-colors'>
-              Get $Voice
+              Book Demo
             </button>
             <a href="tel:+12562977667" className='w-48 h-12 text-sm sm:text-base rounded bg-black text-white hover:bg-fuchsia-700 hover:text-white transition-colors flex items-center justify-center text-center'>
               Call Demo<br/>+1 (256) 297-7667
@@ -112,7 +111,7 @@ export default function Home() {
           <Image src="/whirl.svg" fill className="absolute object-cover w-full overflow-visible sm:rotate-90" alt="Background Whirl"/>
         </div>
         <div className="w-full h-full flex items-center justify-center flex-col gap-8 max-w-7xl">
-          <h3 className='text-4xl md:text-5xl font-bold'>No More Time Wasted!</h3>
+          <h3 className='text-4xl md:text-5xl font-bold'>Stop calling & Keep Cooking</h3>
           <div className="w-full grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 gap-4 justify-between relative">
             {infoCards.map((infoCard) => {
               return (

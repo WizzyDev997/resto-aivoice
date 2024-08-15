@@ -9,19 +9,19 @@ interface IInfoCard {
 
 const infoCards: IInfoCard[] = [
     {
-        title: "Increase your presence",
-        bodyText: "You future AIVR Agent will be available 24/7, reply instantly with a human-like voice, show your customers that you care about them at anytime in the day.",
+        title: "Keep Cooking",
+        bodyText: "Eliminate constant phone calls and focus on cooking. Our service simplifies reservations, giving you more time to perfect your already delicious dishes.",
         icon: ArrowUpNarrowWide,
         id: 1
     },
     {
-        title: "Own your data",
-        bodyText: "For further featers like access to CRM for user's authentification or sensitive data, all of it will remain anonymous and will be secured on the blockchain",
+        title: "Physical presence",
+        bodyText: "Guests can enjoy a more personal experience with your staff, connecting face-to-face and witnessing the genuine smiles that make each visit special.",
         icon: AlarmClockOff,
         id: 2
     },
-    {   title: "Low Cost",
-        bodyText: "Comparing to actual sales & customer support, Our solution is 90% cheaper than the traditional one & no subscription or contract needed",
+    {   title: "37%",
+        bodyText: "of restaurant bookings still occur over the phone, something chatbots can't fully handle.",
         icon: ArrowDownNarrowWide,
         id: 3
     },
