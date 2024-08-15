@@ -41,7 +41,7 @@ export default function Home() {
       <header id="home" className="flex flex-col-reverse md:flex-row w-full h-screen max-w-7xl items-center justify-center p-8 relative overflow-x-hidden">
         <div className='w-full h-2/4 md:h-full md:w-2/5 flex flex-col justify-center items-center md:items-start gap-8'>
           <div className='flex flex-col gap-2'>
-            <h1 className='text-4xl font-black md:text-6xl'>
+            <h1 className='text-3xl font-black md:text-6xl'>
               <span>The </span>
               <span className="Nextgen">Next Gen</span>
               <br />
