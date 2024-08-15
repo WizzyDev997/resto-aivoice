@@ -44,7 +44,8 @@ export default function Home() {
           <h1 className='text-4xl font-black md:text-6xl'>
           <span>The </span>
           <span className="Nextgen">Next Gen</span>
-          <span> Sales & Customer Support</span>
+          <br />
+          <span>AI-Booking Tables Built for <span className="Nextgen">Restaurants</span></span>
           </h1>
             <h2 className='text-md md:text-2xl'>Powered by AI x Blockchain</h2>
           </div>
