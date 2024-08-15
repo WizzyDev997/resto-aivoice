@@ -85,7 +85,8 @@ export default function Home() {
 
 
     <p className='max-w-md text-sm md:text-base text-white font-bold text-center'>
-    Replaces Salesforce, chatbots, and call agents.
+    <span>Replaces Salesforce, chatbots, and call agents.</span>
+
     </p>
 
     <div className='w-full flex items-center justify-center md:justify-start gap-4'>
