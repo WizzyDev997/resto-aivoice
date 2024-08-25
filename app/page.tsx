@@ -38,74 +38,71 @@ export default function Home() {
 <main className='flex min-h-screen h-fit flex-col items-center justify-center relative text-white'>
       <Navbar />
       <header id="home" className="flex flex-col-reverse md:flex-row w-full h-screen max-w-7xl items-center justify-center p-8 relative overflow-x-hidden">
-        <div className='w-full h-2/4 md:h-full md:w-2/5 flex flex-col justify-center items-center md:items-start gap-8'>
-          <div className='flex flex-col gap-2'>
-            <h1 className='text-2xl font-black md:text-6xl'>
-              <span>The </span>
-              <span className="Nextgen">Next Gen</span>
-              <br />
-              <span>AI-Booking Built for <span className="Nextgen">Restaurants</span></span>
-            </h1>
-          </div>
-          <ul className='max-w-md list-none text-sm md:text-base text-white font-bold pl-5 space-y-2'>
-            <li className='flex items-center'>
-              <svg className='w-5 h-5 text-white mr-2' fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-              </svg>
-              AI-voice agent Available 24/7
-            </li>
-            <li className='flex items-center'>
-              <svg className='w-5 h-5 text-white mr-2' fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-              </svg>
-              Local phone number
-            </li>
-            <li className='flex items-center'>
-              <svg className='w-5 h-5 text-white mr-2' fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-              </svg>
-              Access to your restaurant&apos;s agenda
-            </li>
-            <li className='flex items-center'>
-              <svg className='w-5 h-5 text-white mr-2' fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-              </svg>
-              Book, cancel and edit reservations
-            </li>
-            <li className='flex items-center'>
-              <svg className='w-5 h-5 text-white mr-2' fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-              </svg>
-              Decision-making based on availability.
-            </li>
-          </ul>
-          <p className='max-w-md text-sm md:text-base text-white font-bold text-center'>
-            In average 2 to 3 hours are spent daily per restaurant.
-          </p>
-          <div className='w-full flex items-center justify-center md:justify-start gap-4'>
-            <button className='w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-700 hover:text-white transition-colors'>
-              Book Demo
-            </button>
-            <a href="tel:+12562977667" className='w-48 h-12 text-sm sm:text-base rounded bg-black text-white hover:bg-fuchsia-700 hover:text-white transition-colors flex items-center justify-center text-center'>
-              Call Demo<br/>+1 (256) 297-7667
-            </a>
-          </div>
-        </div>
-        <div className='w-full h-2/4 md:h-full md:w-3/5 flex items-center justify-center relative -z-10'>
-          <div className="video-wrapper" style={{ width: '50%', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <video 
-              className="responsive-video"
-              src="/Call.mp4"
-              autoPlay
-              loop
-              muted
-              playsInline
-              controls
-              style={{ overflow: "clip", objectFit: "cover" }} 
-            ></video>
-          </div>
-        </div>
-      </header>
+  <div className='w-full h-2/4 md:h-full md:w-2/5 flex flex-col justify-center items-center md:items-start gap-8'>
+    <div className='flex flex-col gap-2'>
+      <h1 className='text-2xl font-black md:text-6xl'>
+        <span>The </span>
+        <span className="Nextgen">Next Gen</span>
+        <br />
+        <span>AI-Booking Built for <span className="Nextgen">Restaurants</span></span>
+      </h1>
+    </div>
+    <ul className='max-w-md list-none text-sm md:text-base text-white font-bold pl-5 space-y-2'>
+      <li className='flex items-center'>
+        <svg className='w-5 h-5 text-white mr-2' fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+        AI-voice agent Available 24/7
+      </li>
+      <li className='flex items-center'>
+        <svg className='w-5 h-5 text-white mr-2' fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+        Local phone number
+      </li>
+      <li className='flex items-center'>
+        <svg className='w-5 h-5 text-white mr-2' fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+        Access to your restaurant&apos;s agenda
+      </li>
+      <li className='flex items-center'>
+        <svg className='w-5 h-5 text-white mr-2' fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+        Book, cancel and edit reservations
+      </li>
+      <li className='flex items-center'>
+        <svg className='w-5 h-5 text-white mr-2' fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+        Decision-making based on availability.
+      </li>
+    </ul>
+    <p className='max-w-md text-sm md:text-base text-white font-bold text-center'>
+      Restaurants spend 2-3 hours daily on the phone..
+    </p>
+    <div className='w-full flex items-center justify-center md:justify-start gap-4'>
+      <button className='w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-700 hover:text-white transition-colors'>
+        Book Demo
+      </button>
+      <a href="tel:+12562977667" className='w-48 h-12 text-sm sm:text-base rounded bg-black text-white hover:bg-fuchsia-700 hover:text-white transition-colors flex items-center justify-center text-center'>
+        Call Demo<br />+1 (256) 297-7667
+      </a>
+    </div>
+  </div>
+  <div className='w-full h-2/4 md:h-full md:w-3/5 flex items-center justify-center relative -z-10'>
+    <div className="gif-wrapper" style={{ width: '50%', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <img 
+        className="responsive-gif"
+        src="/Call.gif"
+        alt="Demo GIF"
+        style={{ overflow: "clip", objectFit: "cover", maxWidth: '120%', height: 'auto' }} 
+      />
+    </div>
+  </div>
+</header>
+
       <section id="about" className="h-fit min-h-screen w-full flex relative items-center justify-center p-8">
         <div className='absolute -z-10 h-full w-full overflow-hidden'>
           <Image src="/whirl.svg" fill className="absolute object-cover w-full overflow-visible sm:rotate-90" alt="Background Whirl"/>
